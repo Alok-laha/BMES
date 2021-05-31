@@ -1,0 +1,32 @@
+{
+  "name": "bmes",
+  "version": "1.0.0",
+  "description": "building material for e-store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=local nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alok-laha/BMES.git"
+  },
+  "keywords": [
+    "estore"
+  ],
+  "author": "Alok Laha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alok-laha/BMES/issues"
+  },
+  "homepage": "https://github.com/Alok-laha/BMES#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
