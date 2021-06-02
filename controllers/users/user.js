@@ -1,5 +1,4 @@
-const db= require('../../models/index');
-const users= require('../../models/users/users')(db.sequelize, db.Sequelize.DataTypes);
+const users = require('../../models/users/users');
 
 
 exports.allusers= async(req, res)=>{
